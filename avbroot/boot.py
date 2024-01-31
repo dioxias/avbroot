@@ -63,6 +63,7 @@ class MagiskRootPatch(BootImagePatch):
     VERS_SUPPORTED = (
         util.Range(25102, 25207),
         util.Range(25211, 26200),
+        util.Range(26201, 27000),
     )
     VER_PREINIT_DEVICE = util.Range(25211, VERS_SUPPORTED[-1].end)
     VER_RANDOM_SEED = util.Range(25211, VERS_SUPPORTED[-1].end)
